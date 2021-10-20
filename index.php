@@ -1,2 +1,2 @@
 <?php
-echo "v1.2";
+echo "v1.3";
