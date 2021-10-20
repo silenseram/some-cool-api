@@ -21,7 +21,7 @@ jobs:
     - name: kekw1
       run: ls
     - name: smotrim secretic
-      run: echo ${{ secrets.PROD_IP }}
+      run: echo ${{ secrets.PROD_IP }} > test.log | cat test.log
     - name: where i am
       run: cd .. | ls
     - name: whoami
