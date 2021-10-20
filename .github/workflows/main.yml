@@ -20,6 +20,8 @@ jobs:
       run: php -v
     - name: kekw1
       run: ls
+    - name: smotrim secretic
+      run: echo ${{ secrets.PROD_IP }}
     - name: where i am
       run: cd .. | ls
     - name: whoami
