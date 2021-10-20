@@ -19,7 +19,7 @@ jobs:
     - name: kekw
       run: php -v
     - name: kekw1
-      run: ls |
+      run: ls
     - name: where i am
       run: cd .. | ls
     - name: whoami
